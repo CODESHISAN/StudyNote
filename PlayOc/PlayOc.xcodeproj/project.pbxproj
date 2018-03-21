@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E38AD68B20622F49001F7152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38AD68A20622F49001F7152 /* AppDelegate.m */; };
+		E38AD68E20622F49001F7152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38AD68D20622F49001F7152 /* ViewController.m */; };
+		E38AD69120622F49001F7152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38AD68F20622F49001F7152 /* Main.storyboard */; };
+		E38AD69420622F49001F7152 /* PlayOc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E38AD69220622F49001F7152 /* PlayOc.xcdatamodeld */; };
+		E38AD69620622F49001F7152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38AD69520622F49001F7152 /* Assets.xcassets */; };
+		E38AD69920622F49001F7152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38AD69720622F49001F7152 /* LaunchScreen.storyboard */; };
+		E38AD69C20622F49001F7152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E38AD69B20622F49001F7152 /* main.m */; };
+		E38AD6A620622F49001F7152 /* PlayOcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38AD6A520622F49001F7152 /* PlayOcTests.m */; };
+		E38AD6B120622F49001F7152 /* PlayOcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38AD6B020622F49001F7152 /* PlayOcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E38AD6A220622F49001F7152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E38AD67E20622F49001F7152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E38AD68520622F49001F7152;
+			remoteInfo = PlayOc;
+		};
+		E38AD6AD20622F49001F7152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E38AD67E20622F49001F7152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E38AD68520622F49001F7152;
+			remoteInfo = PlayOc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E38AD68620622F49001F7152 /* PlayOc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38AD68920622F49001F7152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E38AD68A20622F49001F7152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E38AD68C20622F49001F7152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E38AD68D20622F49001F7152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E38AD69020622F49001F7152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E38AD69320622F49001F7152 /* PlayOc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlayOc.xcdatamodel; sourceTree = "<group>"; };
+		E38AD69520622F49001F7152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E38AD69820622F49001F7152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E38AD69A20622F49001F7152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38AD69B20622F49001F7152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E38AD6A120622F49001F7152 /* PlayOcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayOcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38AD6A520622F49001F7152 /* PlayOcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayOcTests.m; sourceTree = "<group>"; };
+		E38AD6A720622F49001F7152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38AD6AC20622F49001F7152 /* PlayOcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayOcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38AD6B020622F49001F7152 /* PlayOcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayOcUITests.m; sourceTree = "<group>"; };
+		E38AD6B220622F49001F7152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E38AD68320622F49001F7152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38AD69E20622F49001F7152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38AD6A920622F49001F7152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E38AD67D20622F49001F7152 = {
+			isa = PBXGroup;
+			children = (
+				E38AD68820622F49001F7152 /* PlayOc */,
+				E38AD6A420622F49001F7152 /* PlayOcTests */,
+				E38AD6AF20622F49001F7152 /* PlayOcUITests */,
+				E38AD68720622F49001F7152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E38AD68720622F49001F7152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E38AD68620622F49001F7152 /* PlayOc.app */,
+				E38AD6A120622F49001F7152 /* PlayOcTests.xctest */,
+				E38AD6AC20622F49001F7152 /* PlayOcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E38AD68820622F49001F7152 /* PlayOc */ = {
+			isa = PBXGroup;
+			children = (
+				E38AD68920622F49001F7152 /* AppDelegate.h */,
+				E38AD68A20622F49001F7152 /* AppDelegate.m */,
+				E38AD68C20622F49001F7152 /* ViewController.h */,
+				E38AD68D20622F49001F7152 /* ViewController.m */,
+				E38AD68F20622F49001F7152 /* Main.storyboard */,
+				E38AD69520622F49001F7152 /* Assets.xcassets */,
+				E38AD69720622F49001F7152 /* LaunchScreen.storyboard */,
+				E38AD69A20622F49001F7152 /* Info.plist */,
+				E38AD69B20622F49001F7152 /* main.m */,
+				E38AD69220622F49001F7152 /* PlayOc.xcdatamodeld */,
+			);
+			path = PlayOc;
+			sourceTree = "<group>";
+		};
+		E38AD6A420622F49001F7152 /* PlayOcTests */ = {
+			isa = PBXGroup;
+			children = (
+				E38AD6A520622F49001F7152 /* PlayOcTests.m */,
+				E38AD6A720622F49001F7152 /* Info.plist */,
+			);
+			path = PlayOcTests;
+			sourceTree = "<group>";
+		};
+		E38AD6AF20622F49001F7152 /* PlayOcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E38AD6B020622F49001F7152 /* PlayOcUITests.m */,
+				E38AD6B220622F49001F7152 /* Info.plist */,
+			);
+			path = PlayOcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E38AD68520622F49001F7152 /* PlayOc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38AD6B520622F49001F7152 /* Build configuration list for PBXNativeTarget "PlayOc" */;
+			buildPhases = (
+				E38AD68220622F49001F7152 /* Sources */,
+				E38AD68320622F49001F7152 /* Frameworks */,
+				E38AD68420622F49001F7152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayOc;
+			productName = PlayOc;
+			productReference = E38AD68620622F49001F7152 /* PlayOc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E38AD6A020622F49001F7152 /* PlayOcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38AD6B820622F49001F7152 /* Build configuration list for PBXNativeTarget "PlayOcTests" */;
+			buildPhases = (
+				E38AD69D20622F49001F7152 /* Sources */,
+				E38AD69E20622F49001F7152 /* Frameworks */,
+				E38AD69F20622F49001F7152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E38AD6A320622F49001F7152 /* PBXTargetDependency */,
+			);
+			name = PlayOcTests;
+			productName = PlayOcTests;
+			productReference = E38AD6A120622F49001F7152 /* PlayOcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E38AD6AB20622F49001F7152 /* PlayOcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38AD6BB20622F49001F7152 /* Build configuration list for PBXNativeTarget "PlayOcUITests" */;
+			buildPhases = (
+				E38AD6A820622F49001F7152 /* Sources */,
+				E38AD6A920622F49001F7152 /* Frameworks */,
+				E38AD6AA20622F49001F7152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E38AD6AE20622F49001F7152 /* PBXTargetDependency */,
+			);
+			name = PlayOcUITests;
+			productName = PlayOcUITests;
+			productReference = E38AD6AC20622F49001F7152 /* PlayOcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E38AD67E20622F49001F7152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "朱嘉男";
+				TargetAttributes = {
+					E38AD68520622F49001F7152 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E38AD6A020622F49001F7152 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E38AD68520622F49001F7152;
+					};
+					E38AD6AB20622F49001F7152 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E38AD68520622F49001F7152;
+					};
+				};
+			};
+			buildConfigurationList = E38AD68120622F49001F7152 /* Build configuration list for PBXProject "PlayOc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E38AD67D20622F49001F7152;
+			productRefGroup = E38AD68720622F49001F7152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E38AD68520622F49001F7152 /* PlayOc */,
+				E38AD6A020622F49001F7152 /* PlayOcTests */,
+				E38AD6AB20622F49001F7152 /* PlayOcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E38AD68420622F49001F7152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38AD69920622F49001F7152 /* LaunchScreen.storyboard in Resources */,
+				E38AD69620622F49001F7152 /* Assets.xcassets in Resources */,
+				E38AD69120622F49001F7152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38AD69F20622F49001F7152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38AD6AA20622F49001F7152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E38AD68220622F49001F7152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38AD68E20622F49001F7152 /* ViewController.m in Sources */,
+				E38AD68B20622F49001F7152 /* AppDelegate.m in Sources */,
+				E38AD69C20622F49001F7152 /* main.m in Sources */,
+				E38AD69420622F49001F7152 /* PlayOc.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38AD69D20622F49001F7152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38AD6A620622F49001F7152 /* PlayOcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38AD6A820622F49001F7152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38AD6B120622F49001F7152 /* PlayOcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E38AD6A320622F49001F7152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E38AD68520622F49001F7152 /* PlayOc */;
+			targetProxy = E38AD6A220622F49001F7152 /* PBXContainerItemProxy */;
+		};
+		E38AD6AE20622F49001F7152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E38AD68520622F49001F7152 /* PlayOc */;
+			targetProxy = E38AD6AD20622F49001F7152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E38AD68F20622F49001F7152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E38AD69020622F49001F7152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E38AD69720622F49001F7152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E38AD69820622F49001F7152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E38AD6B320622F49001F7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E38AD6B420622F49001F7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E38AD6B620622F49001F7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38EH9577MD;
+				INFOPLIST_FILE = PlayOc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojishi.PlayOc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E38AD6B720622F49001F7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38EH9577MD;
+				INFOPLIST_FILE = PlayOc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojishi.PlayOc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E38AD6B920622F49001F7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38EH9577MD;
+				INFOPLIST_FILE = PlayOcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojishi.PlayOcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayOc.app/PlayOc";
+			};
+			name = Debug;
+		};
+		E38AD6BA20622F49001F7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38EH9577MD;
+				INFOPLIST_FILE = PlayOcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojishi.PlayOcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayOc.app/PlayOc";
+			};
+			name = Release;
+		};
+		E38AD6BC20622F49001F7152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38EH9577MD;
+				INFOPLIST_FILE = PlayOcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojishi.PlayOcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayOc;
+			};
+			name = Debug;
+		};
+		E38AD6BD20622F49001F7152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38EH9577MD;
+				INFOPLIST_FILE = PlayOcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojishi.PlayOcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayOc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E38AD68120622F49001F7152 /* Build configuration list for PBXProject "PlayOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38AD6B320622F49001F7152 /* Debug */,
+				E38AD6B420622F49001F7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38AD6B520622F49001F7152 /* Build configuration list for PBXNativeTarget "PlayOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38AD6B620622F49001F7152 /* Debug */,
+				E38AD6B720622F49001F7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38AD6B820622F49001F7152 /* Build configuration list for PBXNativeTarget "PlayOcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38AD6B920622F49001F7152 /* Debug */,
+				E38AD6BA20622F49001F7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38AD6BB20622F49001F7152 /* Build configuration list for PBXNativeTarget "PlayOcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38AD6BC20622F49001F7152 /* Debug */,
+				E38AD6BD20622F49001F7152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E38AD69220622F49001F7152 /* PlayOc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E38AD69320622F49001F7152 /* PlayOc.xcdatamodel */,
+			);
+			currentVersion = E38AD69320622F49001F7152 /* PlayOc.xcdatamodel */;
+			path = PlayOc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E38AD67E20622F49001F7152 /* Project object */;
+}
